@@ -3,7 +3,10 @@ body {
     background-color: #32536e
 
 }
-
+html {
+    display: table;
+    margin: 0px auto 0px auto;
+}
 .wrapper {
     background-color: #394952;
     width: auto;
@@ -12,7 +15,7 @@ body {
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 1000px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -57,16 +60,110 @@ a {
 
 h2 {
     color: white;
-    font-size: 30px;
-    padding: 10px;
+    font-size: 40px;
+    margin: 15px;
+    margin-left: 25px;
 }
 
 .chino2 {
-    padding: 10px;
+    float: left;
+    margin: 25px;
+    float: left;
 
 }
 
 .paragraph {
     color: white;
+    font-size: 26px;
+    margin: 25px;
+    line-height: 40px;
 }
 
+.cell{
+    display: table-cell;
+    text-align: center;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: lightgray;
+  }
+
+.cell:nth-child(1){
+    
+    border-right: 1.5px solid white;
+}
+.cell:nth-child(3){
+    border-left: 1.5px solid white;
+}
+
+.directory{
+    display: table;
+    width: 100%; 
+    table-layout: fixed; 
+    margin-top: 8px;
+    color: white;
+}
+
+h3{
+    margin: 25px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: white;
+}
+
+.factlist{
+    margin: 25px;
+    font-size: 26px;
+    color: white;
+    line-height: 40px;
+}
+
+.contactbox{
+    margin: 25px;
+    border: 2px solid white;
+}
+
+.contactbox div{
+    margin: 14px 0px 0px 8px;
+    font-size: 30px;
+    color: white;
+}
+
+.contactbox .txtbox{
+    margin: 2px 0px 0px 8px;
+    font-size: 26px;
+    width: 1520px;
+}
+
+#messagebox {
+    height: 100px;
+}
+
+.radiobtn {
+    margin: 2px 5px 15px 1.5px;
+    width: 22px;
+    height: 22px;
+}
+
+button{
+    margin: 10px;
+}
+
+textarea { 
+resize: none; 
+}
+
+.block {
+    display: block;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 14px 28px;
+    font-size: 26px;
+    cursor: pointer;
+    text-align: center;
+}
+  
