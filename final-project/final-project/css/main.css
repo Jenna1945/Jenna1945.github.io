@@ -1,0 +1,107 @@
+.wrapper {
+    background-color: grey;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.menu {
+    display: grid;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+.logo  {
+    float: left;
+    margin-left: 100px;
+}
+
+li {
+    padding-right: 80px;
+    padding-top: 20px;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.welcome {
+    width: 320px;
+  padding: 10px;
+  border: 5px solid red;
+  margin-left: 500px;
+  
+}
+.bgimg {
+    background-image: url(../images/main-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+.p1 {
+   
+}
+
+.block {
+    
+}
+
+.wrapper3 {
+    background-color: palegoldenrod;
+    padding: 20px;
+}
+
+.box1 {
+    background-color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+    width: 500px;
+    margin-left: -300px;
+}
+
+.digital {
+    width: 500px;
+}
+
+.digitalp {
+    display: block;
+}
+
+.box2 {
+    background-color: antiquewhite; 
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h4 {
+    color:white;
+    font-size: 4rem;
+}
+.p3 {
+    color: white;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.john {
+    float: left;
+}
+
+.team1 {
+    background-color: bisque;
+    padding-bottom: 278px;
+}
+
+.teamgallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
