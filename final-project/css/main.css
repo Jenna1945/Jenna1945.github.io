@@ -20,15 +20,17 @@ time, mark, audio, video {
 }
 
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
+/* grey wrapper for the navbar with appropriate padding */
 .wrapper {
     background-color: #222;
     padding-bottom: 15px;
     padding-top: 25px;
 }
 
+/* display grid with grid-auto-flow: column so each element is aligned in a column*/
 .menu {
     display: grid;
     grid-auto-flow: column;
@@ -41,6 +43,7 @@ body {
     margin-left: 20px;
 }
 
+/* padding allows for the logo to be appropriately places*/
 li {
     padding-right: 50px;
     padding-top: 50px;
@@ -57,6 +60,7 @@ a:visited {
     color: #c78c06;
 }
 
+/*creates backgroun colour while hovering over elements */
 a:hover {
     background-color: #c78c06;
     color:#222;
@@ -73,6 +77,7 @@ a:hover {
     margin-left: 5px;
 }
 
+/*creates semi-transparent box behind title*/
 .welcome {
     width: 95%;
   padding: 20px;
@@ -80,6 +85,8 @@ a:hover {
   background-color:rgba(0,0,0,0.6);
   
 }
+
+/* no repeat and cover used so image covers the entirity of the area without repeating*/
 .bgimg {
     background-image: url(../images/main-banner.jpg);
     background-repeat: no-repeat;
@@ -121,6 +128,7 @@ h1 {
     margin-bottom: 30px;
 }
 
+/* line height so the spaces inbetween each line of text is more spread apart */
 .p2 {
     font-size: 1.3rem;
     margin-top: 30px;
@@ -133,6 +141,7 @@ h2 {
     font-weight: bold;
 }
 
+/* max width allows picture to cover 100% of the screen no matter the screen size*/
 .pingpong {
     width: 100%;
     padding: 5px;
@@ -366,6 +375,7 @@ h6 {
     margin-left: 1rem;
 }
 
+/* border collapse used to minimize space between elements */
 .content-table {
     border-collapse: collapse;
     margin-top: 20px;
@@ -374,6 +384,7 @@ h6 {
     min-width: 90%;
 }
 
+/* targets only the header elements of the table to make the background colour peach as well as centered */
 .content-table thead tr {
     background-color: #ffe6ac;
     text-align: center;
@@ -397,11 +408,11 @@ footer {
     padding-left: 1rem;
     line-height: 2.5rem;
 }
-
+/* media screen that allows the css style to change when the width is anything below 760 for mobile versions*/
 @media screen and (min-width: 760px) {
 
 body {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -536,6 +547,7 @@ h3 {
     margin-top: 3rem;
 }
 
+/* template areas is used to properly position the boxes which have different sizes */
 .gallery {
     display: grid;
     max-width: 90%;
@@ -545,6 +557,7 @@ h3 {
     grid-column-gap: 1rem;
 }
 
+/* each box has a letter assigned to it which corelates with its postition on the template area*/
 .A {
     grid-area: A;
     background-color: #ffe6ac;
@@ -672,6 +685,7 @@ h5 {
     padding-bottom: 278px;
 }
 
+/* similarily to the previous grid, this one has 4 sections with letters corresponding to each appropriate place*/
 .teamgallery {
     display: grid;
     margin: 1rem auto;
