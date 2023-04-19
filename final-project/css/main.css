@@ -145,6 +145,259 @@ h2 {
     
 }
 
+h3 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-left: 1rem;
+}
+
+.digital {
+    width: 100%;
+}
+
+.A {
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.B {
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.C {
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.D {
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.E {
+    background-color: #ffe6ac;
+    margin-bottom: 2rem;
+}
+
+.digitaltitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.digitalp {
+    font-size: 1.3rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+.gallerybuttons {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color:#222;
+}
+
+.vpic {
+    width: 100%;
+}
+
+.vtitle {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.vp {
+    font-size: 1.3rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+}
+
+.gallerybuttons2 {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color:#222;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+h4 {
+    color:white;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+.p3 {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 1rem;
+    line-height: 2rem;
+    margin-right: 1rem;
+
+}
+
+.visionbutton {
+    margin: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(16, 39, 54);
+}
+
+h5 {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.john {
+    width: 100%;
+}
+
+.V {
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.W {
+    background-color: #ffe6ac;
+    margin-bottom: 1rem;
+}
+
+.bob {
+    width: 100%;
+}
+
+.bobtitle {
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.subtitle2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    text-decoration-line: underline;
+    text-decoration-color:#c78c06;
+    
+}
+
+.bobp {
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+h6 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.location {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sendusamessage {
+    font-size: 3rem;
+    font-weight: bold;;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.H {
+    margin-left: 1rem;
+}
+
+.contactbox {
+    font-size: 35px;
+}
+
+.contactbutton {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    color:#c78c06;
+    background-color:#222;
+}
+
+.operation {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hours {
+    margin-left: 1rem;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    min-width: 90%;
+}
+
+.content-table thead tr {
+    background-color: #ffe6ac;
+    text-align: center;
+    border: 1px solid #222;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    border-left: 1px solid #222;
+}
+
+.content-table tbody tr {
+    border: 1px solid #222;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 2rem;
+    padding-left: 1rem;
+    line-height: 2.5rem;
+}
+
 @media screen and (min-width: 760px) {
 
 body {
@@ -199,10 +452,6 @@ a:hover {
     margin-bottom: -6px;
 }
 
-.fa-magnifying-glass {
- margin-left: 
-}
-
 .welcome {
     width: 80%;
   padding: 40px;
@@ -251,7 +500,7 @@ h1 {
 
 .aboutusbox {
     margin-right: 130px;
-    margin-bottom: 50px;
+    margin-bottom: 80px;
 }
 
 .p2 {
@@ -268,7 +517,7 @@ h2 {
 
 .pingpong {
     float: left;
-    width: 600px;
+    width: 42rem;
     margin-left: 65px;
     padding: 15px;
 }
@@ -280,28 +529,96 @@ h2 {
     
 }
 
-.box1 {
-    background-color: #ffe6ac;
+h3 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-left: 4rem;
+    margin-top: 3rem;
+}
 
+.gallery {
+    display: grid;
+    max-width: 90%;
+    margin: 1rem auto;
+    grid-template-areas: "A A A B B B"
+                        "C C D D E E";
+    grid-column-gap: 1rem;
+}
+
+.A {
+    grid-area: A;
+    background-color: #ffe6ac;
+    width: 38rem;
+}
+
+.B {
+    grid-area: B;
+    background-color: #ffe6ac;
+    width: 38rem;
+}
+
+.C {
+    grid-area: C;
+    background-color: #ffe6ac;
+    width: 24rem;
+}
+
+.D {
+    grid-area: D;
+    background-color: #ffe6ac;
+    width: 24rem;
+}
+
+.E {
+    grid-area: E;
+    background-color: #ffe6ac;
+    width: 24rem;
+}
+
+.digitaltitle {
+    font-size: 2.5rem;
+    font-weight: bold;
 }
 
 .digital {
-    width: 500px;
+    width: 38rem;
 }
 
 .digitalp {
-    
+    font-size: 1.3rem;
 }
 
-.box2 {
-    background-color: #ffe6ac;
-
-   
+.gallerybuttons {
+    width: 95%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #222;
+    margin: 1rem;
+    padding: 1.8rem;
 }
 
-.marketing {
-    width: 500px;
+.vpic {
+    width: 24rem;
 }
+
+.vp {
+    font-size: 1.3rem;
+}
+
+.vtitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.gallerybuttons2 {
+    width: 92%;
+    font-size: 1.5rem;
+    color: white;
+    background-color: #222;
+    margin: 1rem;
+    padding: 1.8rem;
+}
+
 
 .vision {
     background-image: url(../images/vision.jpg);
@@ -312,18 +629,40 @@ h2 {
 
 h4 {
     color:white;
-    font-size: 4rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 .p3 {
     color: white;
+    font-size: 1.3rem;
+    margin-left: 4rem;
+    line-height: 2rem;
+
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-   
+.visionbutton {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+    color: white;
+    background-color: rgb(16, 39, 54);
 }
 
+h5 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-left: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
 .john {
     float: left;
 }
@@ -335,11 +674,145 @@ h4 {
 
 .teamgallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem auto;
+    grid-template-areas: "Z V"
+                        "W U";
 
 }
 
-table {
-    background-color: aquamarine;
+.Z {
+    grid-area: Z;
+    margin-left: 5rem;
+}
+
+.V {
+    grid-area: V;
+    background-color: #ffe6ac;
+    margin-bottom: -1rem;
+}
+
+.W {
+    grid-area: W;
+    background-color: #ffe6ac;
+    margin-left: 5rem;
+    margin-bottom: 4px;
+}
+
+.Y {
+    grid-area: U;
+}
+
+.bob {
+    width: 42rem;
+}
+
+.john {
+    width: 42rem;
+}
+
+.bobtitle {
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 1rem;
+    
+}
+
+.subtitle2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    text-decoration-line: underline;
+    text-decoration-color:#c78c06;
+    
+}
+
+.bobp {
+    font-size: 1.3rem;
+    padding: 1rem;
+    
+}
+
+h6 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-left: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.sendusamessage {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.location {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.J {
+    float: right;
+    margin-right: 2rem;
+}
+
+.contactmargin {
+    margin-left: 4rem;
+}
+
+.contactbox {
+    font-size: 35px;
+}
+
+.contactbutton {
+    margin-top: 1rem;
+    margin-bottom: 7rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 1.2rem;
+    color:#c78c06;
+    background-color:#222;
+}
+
+.operation {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.hours {
+    margin-left: 5rem;
+}
+
+.content-table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    min-width: 90%;
+}
+
+.content-table thead tr {
+    background-color: #ffe6ac;
+    text-align: center;
+    border: 1px solid #222;
+}
+
+.content-table th,
+.content-table td {
+    padding: 12px 15px;
+    border-left: 1px solid #222;
+}
+
+.content-table tbody tr {
+    border: 1px solid #222;
+}
+
+footer {
+    background-color: #222;
+    color: #c78c06;
+    padding: 2rem;
+    padding-left: 5rem;
+    line-height: 2.5rem;
 }
 }
